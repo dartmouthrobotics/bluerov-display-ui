@@ -1,9 +1,17 @@
 <html>
   <head>
-    <title>Video Streaming Demonstration</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+    <title>Bluerov Status</title>
   </head>
   <body>
-    <h1>Video Streaming Demonstration</h1>
-    <img src="{{ url_for('video_feed') }}">
+    <img id="video-feed-img" src="{{ url_for('video_feed') }}">
+
+    <div id="kill-div">
+      <p>Kill Program</p>
+    </div>
+
+    <div id="run-div">
+      <p>Run Program</p>
+    </div>
   </body>
 </html>

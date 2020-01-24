@@ -1,0 +1,9 @@
+#kill-div {
+    background-color: red;
+    display: inline-block;
+}
+
+#run-div {
+    background-color: green;
+    display: inline-block;
+}
